@@ -28,8 +28,8 @@ class directed_graph { //Graph Class
 		unordered_map<int, unordered_map<int, T>> adj_list; // keep track of which index corresponds to which vertex_id
 
 	public:
-		directed_graph(); //A constructor for directed_graph. The graph should start empty.
-		~directed_graph(); //A destructor. Depending on how you do things, this may not be necessary.
+		directed_graph(); 
+		~directed_graph(); 
 
 		bool contains(const int&); //Returns true if the graph contains the given vertex_id, false otherwise.
 		bool adjacent(const int&, const int&); //Returns true if the first vertex is adjacent to the second, false otherwise.
